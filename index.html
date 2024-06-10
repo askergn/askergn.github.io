@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/diseño.css">
+
+    <title>Temario de Materias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .temario {
+            display: none;
+        }
+        .temario.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Temario de Materias</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="mostrarTemario('leyo')">LEOYE</a></li>
+            <li><a href="#" onclick="mostrarTemario('logica')">Lógica</a></li>
+            <li><a href="#" onclick="mostrarTemario('algebra')">Álgebra</a></li>
+            <li><a href="#" onclick="mostrarTemario('ingles')">Inglés</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div id="leyo" class="temario">
+            <h2>LEOYE - Ley Orgánica de Educación y Educación</h2>
+            <p>La Ley Orgánica de Educación y Educación, también conocida como LEOYE, es la normativa legal que regula el sistema educativo en el país. Establece los principios fundamentales, derechos y deberes de los estudiantes, docentes y demás actores del ámbito educativo.</p>
+            <ul>
+                <li><a href="leo.html">Introducción a la lectura y escritura</a></li>
+                <hr>
+                Presentación del curso y objetivos de aprendizaje.<br>
+Importancia de la lectura y la escritura en el desarrollo personal y académico.<br>
+Estrategias para mejorar la comprensión lectora y la expresión escrita.<br>
+          <br>
+          <br>
+           <li><a href="leo1.html">Comprensión lectora</a></li>
+           <hr>
+           Técnicas para mejorar la comprensión de textos.<br>
+Identificación de ideas principales y secundarias.<br>
+Uso de contexto y pistas contextuales para inferir el significado de palabras desconocidas.<br>
+            </ul>
+            <!-- Aquí puedes agregar el temario detallado de LEOYE -->
+        </div>
+        <div id="logica" class="temario">
+            <h2>Lógica</h2>
+            <p>La lógica es una disciplina que estudia los principios del razonamiento válido. Se ocupa de analizar la estructura y validez de los argumentos, así como de los métodos para llegar a conclusiones correctas a partir de premisas dadas.</p>
+            <ul>
+                <li> <a href="logica.html">Introducción a la lógica</a></li>
+                <hr>
+                Definición de lógica y su importancia en el razonamiento.<br>
+Distinción entre lógica formal y lógica informal.<br>
+Principales áreas de aplicación de la lógica en la vida cotidiana y en distintos campos del conocimiento.<br>
+          <br>
+          <br>
+           <li><a href="logica2.html">Lógica proposicional</a>L</li>
+           <hr>
+           Concepto de proposición y conectivas lógicas (conjunción, disyunción, negación, implicación, bicondicional).<br>
+Tablas de verdad y su uso para determinar la veracidad de proposiciones compuestas.<br>
+Leyes de la lógica proposicional: conmutatividad, asociatividad, distributividad, etc.<br>
+            </ul>
+            <!-- Aquí puedes agregar el temario detallado de Lógica -->
+        </div>
+        <div id="algebra" class="temario">
+            <h2>Álgebra</h2>
+            <p>El álgebra es una rama de las matemáticas que estudia la manipulación de estructuras abstractas, como números, variables y operaciones, para resolver problemas y comprender patrones matemáticos.</p>
+              <ul>
+            <li><a href="al.html"> INTRODUCION AL ALGEBRA</a></li>
+            <hr>
+            - Definición de álgebra<br>
+            - Historia del álgebra<br>
+            - Conceptos básicos: variables, constantes, expresiones algebraicas<br>
+            <br>
+              <li><a href="al1.html"> OPERACIONES BASICAS</a></li>
+            <hr>
+            - Suma, resta, multiplicación y división de expresiones algebraicas <br>
+            - Propiedades de las operaciones básicas <br>
+              <br>
+              <li> <a href="al2.html">ECUACIONES LINEALES</a></li>
+            <hr>
+            - Definición de ecuación lineal <br>
+- Métodos de resolución: igualación, sustitución, eliminación <br>
+- Aplicaciones de las ecuaciones lineales en problemas del mundo real <br>
+
+            
+        </ul>
+            <!-- Aquí puedes agregar el temario detallado de Álgebra -->
+        </div>
+        <div id="ingles" class="temario">
+            <h2>Inglés</h2>
+            <p>El inglés es un idioma internacional ampliamente utilizado en comunicaciones globales, negocios, educación y entretenimiento. Aprender inglés puede abrir puertas a oportunidades laborales y culturales en todo el mundo.</p>
+            <ul>
+                <li> <a href="ingles.html">Introducción al inglés</a> </li>
+                <hr>
+                Presentación del curso y objetivos de aprendizaje.<br>
+Breve historia del idioma inglés.<br>
+Importancia del inglés en el mundo actual.<br>
+           <br>
+           <br>
+           <li><a href="ingles2.html">Gramática básica</a></li>
+           <hr>
+           El abecedario y la pronunciación en inglés.<br>
+  Sustantivos y género.<br>
+  Artículos definidos e indefinidos.<br>
+   Pronombres personales.<br>
+Verbos regulares e irregulares en presente.<br>
+          <br>
+          <br>
+           <li> <a href="ingles3.html">Presente Simple y Presente Continuo</a></li>
+           <hr>
+           Formación y uso del Presente Simple.<br>
+Formación y uso del Presente Continuo.<br>
+Diferencias entre ambos tiempos verbales.<br>
+            </ul>
+            <!-- Aquí puedes agregar el temario detallado de Inglés -->
+        </div>
+    </div>
+
+    <script>
+        function mostrarTemario(materia) {
+            // Ocultar todos los temarios
+            var temarios = document.getElementsByClassName('temario');
+            for (var i = 0; i < temarios.length; i++) {
+                temarios[i].classList.remove('active');
+            }
+
+            // Mostrar el temario de la materia seleccionada
+            document.getElementById(materia).classList.add('active');
+        }
+    </script>
+</body>
+</html>
